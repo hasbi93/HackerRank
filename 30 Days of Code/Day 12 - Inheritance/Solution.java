@@ -43,8 +43,8 @@ class Student extends Person {
         
         double average = (double) sum / testScores.length;
         
-        // In a real application, cutoff scores for each grade should be saved
-        // as constants elsewhere; here, it's not worth the effort
+        /* In a real application, cutoff scores for each grade should be saved
+         * as constants elsewhere; here, it's not worth the effort */
         if (average >= 90) {
             return 'O';
         } else if (average >= 80) {
