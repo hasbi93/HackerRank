@@ -27,7 +27,7 @@ class Calculator implements AdvancedArithmetic {
         
         /* If the square root of n is a divisor, the previous loop counted it
          * twice; so, subtract it from the sum once */
-        if (n % sqrtN == 0) {
+        if (sqrtN * sqrtN == n) {
             sum -= sqrtN;
         }
         
