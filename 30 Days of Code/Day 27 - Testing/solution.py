@@ -22,14 +22,14 @@ def minimum_index(seq):
 ################################################################################
 
 
-class TestDataEmptyArray(object):
-    
+class TestDataEmptyArray():
+
     @staticmethod
     def get_array():
         return list()
 
-        
-class TestDataUniqueValues(object):
+
+class TestDataUniqueValues():
 
     @staticmethod
     def get_array():
@@ -39,8 +39,8 @@ class TestDataUniqueValues(object):
     def get_expected_result():
         return 5
 
-        
-class TestDataExactlyTwoDifferentMinimums(object):
+
+class TestDataExactlyTwoDifferentMinimums():
 
     @staticmethod
     def get_array():
@@ -49,7 +49,6 @@ class TestDataExactlyTwoDifferentMinimums(object):
     @staticmethod
     def get_expected_result():
         return 5
-        
 
 ################################################################################
 #----------------------------- begin locked code ------------------------------#

@@ -1,3 +1,7 @@
+"""
+Pylint hates everything in the locked code stubs. Good example of poor style.
+"""
+
 ################################################################################
 #----------------------------- begin locked code ------------------------------#
 from abc import ABCMeta, abstractmethod
@@ -16,9 +20,9 @@ class MyBook(Book):
         self.price = price
 
     def display(self):
-        print("Title: " + title)
-        print("Author: " + author)
-        print("Price: " + str(price))
+        print("Title: " + self.title)
+        print("Author: " + self.author)
+        print("Price: " + str(self.price))
 
 ################################################################################
 #----------------------------- begin locked code ------------------------------#

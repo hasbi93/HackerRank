@@ -20,9 +20,10 @@ class Solution:
 ################################################################################
 
     def getHeight(self, root):
+        """Recursively get the height of the tree (empty tree has height -1)."""
         if not root:
             return -1
-        
+
         left_height = self.getHeight(root.left)
         right_height = self.getHeight(root.right)
         return 1 + max(left_height, right_height)
@@ -36,6 +37,6 @@ for i in range(T):
     data=int(input())
     root=myTree.insert(root,data)
 height=myTree.getHeight(root)
-print(height)  
+print(height)
 #------------------------------ end locked code -------------------------------#
 ################################################################################

@@ -13,6 +13,7 @@ def hourglass_sum(matrix, r, c):
            matrix[r + 2][c + 0] + matrix[r + 2][c + 1] + matrix[r + 2][c + 2]
 
 def max_hourglass_sum(matrix):
+    """Find the largest hourglass sum in the entire matrix."""
     if not matrix or len(matrix) < 3 or len(matrix[0]) < 3:
         return None
 
@@ -23,9 +24,12 @@ def max_hourglass_sum(matrix):
             max_sum = max(current_sum, max_sum)
     return max_sum
 
-if __name__ == '__main__':
+def main():
     matrix = []
     for _ in range(0, 6):
         row = list(map(int, input().split()))
         matrix.append(row)
     print(max_hourglass_sum(matrix))
+
+if __name__ == "__main__":
+    main()

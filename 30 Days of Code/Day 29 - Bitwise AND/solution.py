@@ -1,5 +1,5 @@
 """
-For some good explanations of this solution, see the Discussion tab on 
+For some good explanations of this solution, see the Discussion tab on
 HackerRank. It's best explained in steps with several examples.
 """
 

@@ -4,11 +4,15 @@ The solution below provides more practice manipulating lists.
 """
 
 def reverse_list(L):
+    """Reverse a list in-place."""
     for i in range(len(L) // 2):
         L[i], L[-(i+1)] = L[-(i+1)], L[i]
 
-n = int(input()) # Don't really need this...
+def main():
+    _ = int(input())
+    input_list = [int(x) for x in input().split()]
+    reverse_list(input_list)
+    print(*input_list)
 
-input_list = list(map(int, input().split()))
-reverse_list(input_list)
-print(*input_list)
+if __name__ == "__main__":
+    main()

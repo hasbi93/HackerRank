@@ -1,6 +1,6 @@
-N = int(input())
+n = int(input())
 
-if (N % 2 == 1) or (N in range(6, 21)):
+if (n % 2 == 1) or (n in range(6, 21)):
     print("Weird")
 else:
-    print("Not Weird") 
+    print("Not Weird")

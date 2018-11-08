@@ -1,3 +1,9 @@
+"""
+Note that it may be preferred to make a LinkedList class, that maintains its
+own reference to its head. Then the calling code doesn't have to maintain the
+reference to the head, and the insert() function doesn't have to return it.
+"""
+
 ################################################################################
 #----------------------------- begin locked code ------------------------------#
 class Node:
@@ -14,6 +20,7 @@ class Solution:
 ################################################################################
 
     def insert(self, head, data):
+        """Add a new node to the end of the given list."""
         new_node = Node(data)
 
         if not head:

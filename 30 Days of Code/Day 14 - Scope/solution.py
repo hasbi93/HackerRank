@@ -1,5 +1,6 @@
 """
-Once again, HackerRank doesn't follow PEP 8 naming guidelines here...
+Once again, HackerRank forces users to use camelCase where snake_case is 
+conventional.
 """
 
 ################################################################################
@@ -11,9 +12,9 @@ class Difference:
 ################################################################################
 
     def computeDifference(self):
-        maxElement = max(self.__elements)
-        minElement = min(self.__elements)
-        self.maximumDifference = abs(maxElement - minElement)
+        max_element = max(self.__elements)
+        min_element = min(self.__elements)
+        self.maximumDifference = abs(max_element - min_element)
 
 ################################################################################
 #----------------------------- begin locked code ------------------------------#

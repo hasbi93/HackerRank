@@ -1,7 +1,7 @@
 num_entries = int(input())
 
 phone_book = {}
-for e in range(num_entries):
+for _ in range(num_entries):
     name, number = input().split()
     phone_book[name] = number
 

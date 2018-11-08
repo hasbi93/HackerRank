@@ -1,6 +1,6 @@
 """
-In this challenge, we observe HackerRank forcing users to obey non-PEP 8
-naming conventions...
+Once again, this challenge encourages users to use camelCase for names that 
+should be in snake_case. Pylint hates this code.
 """
 
 ################################################################################
@@ -22,19 +22,19 @@ class Student(Person):
         self.scores = scores
 
     def calculate(self):
-        average = sum(scores) / len(scores)
+        """Return a letter denoting the student's average score."""
+        average = sum(self.scores) / len(self.scores)
         if average >= 90:
             return 'O'
-        elif average >= 80:
-            return 'E';
-        elif average >= 70:
-            return 'A';
-        elif average >= 55:
-            return 'P';
-        elif average >= 40:
-            return 'D';
-        else:
-            return 'T';
+        if average >= 80:
+            return 'E'
+        if average >= 70:
+            return 'A'
+        if average >= 55:
+            return 'P'
+        if average >= 40:
+            return 'D'
+        return 'T'
 
 ################################################################################
 #----------------------------- begin locked code ------------------------------#

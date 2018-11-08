@@ -27,12 +27,13 @@ class Solution:
 ################################################################################
 
     def levelOrder(self, root):
+        """Traverse and print the tree's nodes in level-order."""
         if not root:
             return None
-        
+
         queue = collections.deque()
         queue.append(root)
-        
+
         while queue:
             current = queue.popleft()
             print(current.data, end=" ")
@@ -40,8 +41,8 @@ class Solution:
                 queue.append(current.left)
             if current.right:
                 queue.append(current.right)
-            
-import collections # Normally, imports should go at the top of the file...
+
+import collections # Normally, imports should go at the top of the file.
 
 ################################################################################
 #----------------------------- begin locked code ------------------------------#

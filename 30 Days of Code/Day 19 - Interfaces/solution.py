@@ -1,10 +1,9 @@
 """
-This solution is O(n) time; it could be reduced to O(n^1/2) by only checking
-divisors up to the square root of n. For each divisor d less than the root, we
-know the corresponding divisor greater than the root is (n / d). Care must be
-taken for the special case where the square root is an integer.
+This solution is O(n^1/2) time; for each divisor d less than the square root
+of n, we know the corresponding divisor greater than the root is (n / d).
+Care must be taken for the special case where the square root divides n.
 
-I've opted for the cleaner O(n) solution below, with an easy list comprehension.
+The O(n) solution is very similar and somewhat cleaner.
 """
 
 ################################################################################
@@ -15,10 +14,27 @@ class AdvancedArithmetic(object):
 #------------------------------ end locked code -------------------------------#
 ################################################################################
 
+from math import sqrt # Should normally go at top of file.
+
 class Calculator(AdvancedArithmetic):
-    def divisorSum(self, n):
-        divisors = [x for x in range(1, sqrt_n + 1) if n % x == 0]
-        return sum(divisors)
+
+    @staticmethod
+    def divisorSum(n):
+        """Return the sum of all divisors of n."""
+        sqrt_n = int(sqrt(n))
+
+        # Make a list of tuples of divisors of n.
+        divisors = [(d, n//d) for d in range(1, sqrt_n + 1) if n % d == 0]
+
+        # Flatten the list and sum it.
+        divisors = [d for pair in divisors for d in pair]
+        divisor_sum = sum(divisors)
+
+        # May have counted the square root twice, if it divides n.
+        if sqrt_n ** 2 == n:
+            divisor_sum -= sqrt_n
+        return divisor_sum
+
 
 ################################################################################
 #----------------------------- begin locked code ------------------------------#
