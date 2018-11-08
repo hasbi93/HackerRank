@@ -22,9 +22,7 @@
 
 Since readers of this tutorial are probably somewhat new to programming, my solutions to this particular set of challenges prioritize **code readability** over small gains in efficiency or robustness.
 
-For example, while it is valuable to learn about checking whether input meets the expected constraints (and how to respond elegantly if it does not), I've omitted most such code to avoid confusing beginners.
-
-For the same reason, the type of long, dense, or convoluted "one-liner" solutions that some programmers enjoy showing off are not presented here.
+That is, the type of long, dense, or convoluted "one-liner" solutions that some programmers enjoy showing off are not presented here, and input is assumed to mostly follow the constraints stated in each challenge.
 
 ### Encouraging Good Practices
 
