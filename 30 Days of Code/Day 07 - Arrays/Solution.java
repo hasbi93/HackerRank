@@ -8,23 +8,23 @@
 import java.util.Scanner;
 
 class Solution {
-    
+
     /* Performs in-place array reversal. */
     private static void reverse(int[] array) {
         int head = 0;
         int tail = array.length - 1;
-        
+
         while (head < tail) {
             int temp = array[head];
             array[head] = array[tail];
             array[tail] = temp;
-            
+
             head++;
             tail--;
         }
     }
 
-    public static void main(String[] args) {      
+    public static void main(String[] args) {
         /* Read in the array and its size */
         Scanner in = new Scanner(System.in);
         int length = in.nextInt();
@@ -35,7 +35,7 @@ class Solution {
             array[i] = in.nextInt();
         }
         in.close();
-                
+
         /* Reverse and print the array */
         reverse(array);
         for (int element : array) {
@@ -43,5 +43,5 @@ class Solution {
         }
         System.out.println();
     }
-    
+
 }

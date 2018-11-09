@@ -4,9 +4,9 @@ import java.io.*;
 import java.util.*;
 
 class Node {
-	int data;
-	Node next;
-	Node(int d) {
+    int data;
+    Node next;
+    Node(int d) {
         data = d;
         next = null;
     }
@@ -20,12 +20,12 @@ class Solution {
      * first node is `head`, and  returns the head of the resulting list */
     public static Node insert(Node head, int data) {
         Node newNode = new Node(data);
-        
+
         /* Empty list case; insert new node as the only element */
         if (head == null) {
             return newNode;
         }
-        
+
         /* Non-empty list case; traverse to end of list, then insert new node */
         Node currentNode = head;
         while (currentNode.next != null) {
@@ -34,7 +34,7 @@ class Solution {
         currentNode.next = newNode;
         return head;
     }
-    
+
 /* ************************************************************************** */
 /* --------------------------- begin locked code ---------------------------- */
     public static void display(Node head) {

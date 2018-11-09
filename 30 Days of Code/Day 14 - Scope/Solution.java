@@ -23,21 +23,21 @@ class Difference {
     void computeDifference() {
         int min = Integer.MAX_VALUE;
         int max = Integer.MIN_VALUE;
-        
+
         /* Find the min and max elements - O(n) time, O(1) space */
         for (int element : elements) {
             if (element < min) {
                 min = element;
             }
-            
+
             if (element > max) {
                 max = element;
             }
         }
-        
+
         maximumDifference = Math.abs(max - min);
     }
-    
+
 /* ************************************************************************** */
 /* --------------------------- begin locked code ---------------------------- */
 } // End of Difference class

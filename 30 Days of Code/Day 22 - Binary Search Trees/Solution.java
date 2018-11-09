@@ -23,7 +23,7 @@ class Solution{
             return 1 + Math.max(getHeight(root.left), getHeight(root.right));
         }
     }
-    
+
 /* ************************************************************************** */
 /* --------------------------- begin locked code ---------------------------- */
 	public static Node insert(Node root,int data){
@@ -53,7 +53,7 @@ class Solution{
             }
             int height=getHeight(root);
             System.out.println(height);
-        }	
+        }
 }
 /* ---------------------------- end locked code ----------------------------- */
 /* ************************************************************************** */

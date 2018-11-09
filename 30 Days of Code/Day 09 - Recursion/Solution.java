@@ -7,7 +7,7 @@ class Solution {
         if (n == 0) {
             return 1;
         }
-        
+
         /* Recursive case */
         return n * factorial(n - 1);
     }
@@ -19,5 +19,5 @@ class Solution {
 
         System.out.println(factorial(n));
     }
-    
+
 }

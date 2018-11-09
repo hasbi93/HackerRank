@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 class Solution {
-    
+
     /* Checks if the specified integer is prime, in O(n^1/2) time */
     private static boolean isPrime(int n) {
         if (n == 1) {             // 1 is defined to be composite
@@ -11,7 +11,7 @@ class Solution {
         } else if (n % 2 == 0) {  // 2 is the ONLY even prime
             return false;
         }
-        
+
         /* A composite number must have a factor less than or equal to its
          * square root; check all potential odd factors up to that root */
         int sqrtN = (int) Math.sqrt(n);
@@ -20,8 +20,8 @@ class Solution {
                 return false;
             }
         }
-        
-        return true;        
+
+        return true;
     }
 
     public static void main(String[] args) {
@@ -34,5 +34,5 @@ class Solution {
         }
         in.close();
     }
-    
+
 }

@@ -13,26 +13,26 @@ class Node{
 class Solution{
 /* ---------------------------- end locked code ----------------------------- */
 /* ************************************************************************** */
-    
+
     /* Traverses the tree rooted at the specified node in left-to-right level
      * order, and prints the data of all nodes in the order of traversal. */
     private static void levelOrder(Node root) {
         Queue<Node> queue = new ArrayDeque<>();
         StringBuilder traversal = new StringBuilder();
-        
+
         if (root == null) {
             return;
         }
-        
+
         queue.add(root);
-        
+
         /* Beginning with the root, add the children (left, then right) of each
          * node to a queue; remove the node at the head of the queue and
          * iterate until all nodes have been processed in level-order */
         while (!queue.isEmpty()) {
             Node currentNode = queue.remove();
             traversal.append(currentNode.data + " ");
-            
+
             if (currentNode.left != null) {
                 queue.add(currentNode.left);
             }
@@ -40,13 +40,13 @@ class Solution{
                 queue.add(currentNode.right);
             }
         }
-        
+
         System.out.println(traversal);
     }
-    
+
 /* ************************************************************************** */
 /* --------------------------- begin locked code ---------------------------- */
-	public static Node insert(Node root,int data){
+    public static Node insert(Node root,int data){
         if(root==null){
             return new Node(data);
         }
@@ -72,7 +72,7 @@ class Solution{
                 root=insert(root,data);
             }
             levelOrder(root);
-        }	
+        }
 }
 /* ---------------------------- end locked code ----------------------------- */
 /* ************************************************************************** */

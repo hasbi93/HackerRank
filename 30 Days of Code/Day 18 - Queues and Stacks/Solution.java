@@ -14,30 +14,30 @@ import java.util.*;
 /* ************************************************************************** */
 
 class Solution {
-    
+
     private Deque<Character> stack = new ArrayDeque<>();
     private Deque<Character> queue = new ArrayDeque<>();
-    
+
     /* Pushes a character onto the stack */
     private void pushCharacter(char ch) {
         stack.push(ch);
     }
-    
+
     /* Enqueues a character in the queue */
     private void enqueueCharacter(char ch) {
         queue.add(ch);
     }
-    
+
     /* Pops and returns the character at the top of the stack */
     private char popCharacter() {
         return stack.pop();
     }
-    
+
     /* Dequeues and returns the first character in the queue */
     private char dequeueCharacter() {
         return queue.remove();
     }
-    
+
 /* ************************************************************************** */
 /* --------------------------- begin locked code ---------------------------- */
     public static void main(String[] args) {
@@ -61,13 +61,13 @@ class Solution {
         boolean isPalindrome = true;
         for (int i = 0; i < s.length/2; i++) {
             if (p.popCharacter() != p.dequeueCharacter()) {
-                isPalindrome = false;                
+                isPalindrome = false;
                 break;
             }
         }
 
         //Finally, print whether string s is palindrome or not.
-        System.out.println( "The word, " + input + ", is " 
+        System.out.println( "The word, " + input + ", is "
                            + ( (!isPalindrome) ? "not a palindrome." : "a palindrome." ) );
     }
 }

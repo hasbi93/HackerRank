@@ -12,13 +12,13 @@ class Printer <T> {
             System.out.println(element);
         }
     }
-    
+
 /* ************************************************************************** */
 /* --------------------------- begin locked code ---------------------------- */
 }
 
 public class Generics {
-    
+
     public static void main(String args[]){
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
@@ -32,7 +32,7 @@ public class Generics {
         for (int i = 0; i < n; i++) {
             stringArray[i] = scanner.next();
         }
-        
+
         Printer<Integer> intPrinter = new Printer<Integer>();
         Printer<String> stringPrinter = new Printer<String>();
         intPrinter.printArray( intArray  );
@@ -40,7 +40,7 @@ public class Generics {
         if(Printer.class.getDeclaredMethods().length > 1){
             System.out.println("The Printer class should only have 1 method named printArray.");
         }
-    } 
+    }
 }
 /* ---------------------------- end locked code ----------------------------- */
 /* ************************************************************************** */

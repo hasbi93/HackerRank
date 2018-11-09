@@ -3,29 +3,29 @@
 import java.io.*;
 import java.util.*;
 class Node{
-	int data;
-	Node next;
-	Node(int d){
+    int data;
+    Node next;
+    Node(int d){
         data=d;
         next=null;
     }
-	
+
 }
 class Solution
 {
 /* ---------------------------- end locked code ----------------------------- */
 /* ************************************************************************** */
-    
+
     /* Removes all duplicate elements from the specified list, and returns
-     * the reference to the head of that list (list MUST be in non-decreasing 
+     * the reference to the head of that list (list MUST be in non-decreasing
      * order). */
     public static Node removeDuplicates(Node head) {
         if (head == null) {
             return null;
         }
-        
+
         Node current = head;
-        
+
         while (current.next != null) {
             /* Skip the next node, if it contains duplicate data */
             if (current.data == current.next.data) {
@@ -34,15 +34,15 @@ class Solution
                 current = current.next;
             }
         }
-        
+
         return head;
     }
-    
+
 /* ************************************************************************** */
 /* --------------------------- begin locked code ---------------------------- */
     public static  Node insert(Node head,int data)
     {
-        Node p=new Node(data);			
+        Node p=new Node(data);
         if(head==null)
             head=p;
         else if(head.next==null)

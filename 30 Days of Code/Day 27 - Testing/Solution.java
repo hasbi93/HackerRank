@@ -18,8 +18,8 @@ public class Solution {
     }
 /* ---------------------------- end locked code ----------------------------- */
 /* ************************************************************************** */
-    
-    private static class TestDataEmptyArray {       
+
+    private static class TestDataEmptyArray {
         private static int[] get_array() {
             return new int[0];
         }
@@ -28,7 +28,7 @@ public class Solution {
     private static class TestDataUniqueValues {
         private static int[] array = {3, 6, 9};
         private static int minimumIndex = 0;
-            
+
         private static int[] get_array() {
             return array;
         }
@@ -41,7 +41,7 @@ public class Solution {
     private static class TestDataExactlyTwoDifferentMinimums {
         private static int[] array = {3, 6, 9, 3};
         private static int minimumIndex = 0;
-        
+
         private static int[] get_array() {
             return array;
         }
@@ -50,7 +50,7 @@ public class Solution {
             return minimumIndex;
         }
     }
-    
+
 /* ************************************************************************** */
 /* --------------------------- begin locked code ---------------------------- */
 	public static void TestWithEmptyArray() {

@@ -6,14 +6,14 @@ import java.util.*;
 /* ************************************************************************** */
 
 public class Person {
-    
+
     /* Inclusive limits for the defined age ranges */
     private static int YOUNG_MAX = 12;
     private static int TEEN_MIN = 13;
     private static int TEEN_MAX = 17; // interesting definition of "teen"...
-    
+
     private int age;
-    
+
     public Person(int initialAge) {
         if (initialAge < 0) {
             System.out.println("Age is not valid, setting age to 0.");
@@ -22,10 +22,10 @@ public class Person {
             age = initialAge;
         }
     }
-    
+
     public void amIOld() {
         String answer;
-        
+
         if (age <= YOUNG_MAX) {
             answer = "You are young.";
         } else if (TEEN_MIN <= age && age <= TEEN_MAX) {
@@ -33,14 +33,14 @@ public class Person {
         } else {
             answer = "You are old.";
         }
-    
+
         System.out.println(answer);
     }
-    
+
     public void yearPasses() {
         age++;
     }
-    
+
 /* ************************************************************************** */
 /* --------------------------- begin locked code ---------------------------- */
     public static void main(String[] args) {
