@@ -1,16 +1,16 @@
 import java.util.Scanner;
 
 class Solution {
-    
+
     private static final int NUM_LINES = 3;
 
     public static void main(String[] args) {
 
         Scanner in = new Scanner(System.in);
-   
+
         System.out.println("================================");
         for (int j = 0; j < NUM_LINES; j++)
-        { 
+        {
             String s = in.next();
             int i = in.nextInt();
 
@@ -20,5 +20,5 @@ class Solution {
 
         in.close();
     }
-    
+
 }

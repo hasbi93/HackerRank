@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 class Solution {
-    
+
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int i = in.nextInt();
@@ -14,5 +14,5 @@ class Solution {
         System.out.println("Double: " + d);
         System.out.println("Int: "    + i);
     }
-    
+
 }

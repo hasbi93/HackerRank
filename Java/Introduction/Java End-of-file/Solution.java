@@ -1,10 +1,10 @@
 import java.util.Scanner;
 
 class Solution {
-    
-    public static void main(String[] args) {       
+
+    public static void main(String[] args) {
         int lineNumber = 1;
-        
+
         Scanner in = new Scanner(System.in);
         while (in.hasNext()) {
             String currentLine = in.nextLine();
@@ -13,5 +13,5 @@ class Solution {
         }
         in.close();
     }
-    
+
 }

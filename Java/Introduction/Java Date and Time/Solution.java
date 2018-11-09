@@ -17,13 +17,13 @@ import static java.util.stream.Collectors.toList;
 import java.time.LocalDate;
 
 class Result {
-    
+
     /* Returns the day of the week for the specified date. */
     static String findDay(int month, int day, int year) {
         LocalDate localDate = LocalDate.of(year, month, day);
         return localDate.getDayOfWeek().toString();
     }
-    
+
 }
 
 /* ************************************************************************** */

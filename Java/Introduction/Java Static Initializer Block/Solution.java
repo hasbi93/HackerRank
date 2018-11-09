@@ -39,7 +39,7 @@ public static void main(String[] args){
 			int area=B*H;
 			System.out.print(area);
 		}
-		
+
 	}//end of main
 
 }//end of class

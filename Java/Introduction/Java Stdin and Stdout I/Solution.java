@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 class Solution {
-    
+
     private static final int NUM_INTS = 3;
 
     public static void main(String[] args) {
@@ -11,5 +11,5 @@ class Solution {
         }
         in.close();
     }
-    
+
 }
