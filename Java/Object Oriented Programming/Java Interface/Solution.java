@@ -8,13 +8,13 @@ interface AdvancedArithmetic{
 /* ************************************************************************** */
 
 class MyCalculator implements AdvancedArithmetic {
-    
-    /* Finds the sum of all divisors of the specified integer, 
+
+    /* Finds the sum of all divisors of the specified integer,
      * in O(n^1/2) time */
     public int divisor_sum(int n) {
         int sum = 0;
         int sqrtN = (int) Math.sqrt(n);
-        
+
         for (int i = 1; i <= sqrtN; i++) {
             if (n % i == 0) {
                 /* Add both i and the corresponding factor, n/i, to the sum */
@@ -22,16 +22,16 @@ class MyCalculator implements AdvancedArithmetic {
                 sum += n/i;
             }
         }
-        
+
         /* If the square root of n is a divisor, the previous loop counted it
          * twice; so, subtract it from the sum once */
         if (sqrtN * sqrtN == n) {
             sum -= sqrtN;
         }
-        
+
         return sum;
     }
-    
+
 }
 
 /* ************************************************************************** */

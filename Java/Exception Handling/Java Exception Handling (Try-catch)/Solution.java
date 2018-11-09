@@ -15,5 +15,5 @@ class Solution {
             System.out.println(e);
         }
     }
-    
+
 }

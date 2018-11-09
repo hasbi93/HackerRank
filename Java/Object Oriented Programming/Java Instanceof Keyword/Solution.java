@@ -1,5 +1,5 @@
 /*
- * This solution only allows you to modify the three lines numbered below.
+ * This solution ONLY allows you to modify the three lines numbered below.
  * Even including this comment will cause it to fail.
  */
 
@@ -12,7 +12,7 @@ class Hacker{}
 
 
 public class InstanceOFTutorial{
-	
+
    static String count(ArrayList mylist){
       int a = 0,b = 0,c = 0;
       for(int i = 0; i < mylist.size(); i++){
