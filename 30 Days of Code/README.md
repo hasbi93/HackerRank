@@ -20,7 +20,7 @@
 
 ### Notes on Style
 
-Since readers of this tutorial are probably somewhat new to programming, my solutions to this particular set of challenges prioritize **code readability** over small gains in efficiency or robustness.
+Since readers of this tutorial are probably somewhat new to programming, my solutions to this particular set of challenges prioritize code readability over small gains in efficiency or robustness.
 
 That is, the type of long, dense, or convoluted "one-liner" solutions that some programmers enjoy showing off are not presented here, and input is assumed to mostly follow the constraints stated in each challenge.
 
