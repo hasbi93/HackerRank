@@ -5,18 +5,18 @@ import java.util.Scanner;
 public class Solution {
 /* ---------------------------- end locked code ----------------------------- */
 /* ************************************************************************** */
-    
+
     /* Returns the smallest and largest substrings (newline-separated) of the
      * specified length from the given string. */
     private static String getSmallestAndLargest(String str, int k) {
         String initial = str.substring(0, k);
-        
+
         String smallest = initial;
         String largest = initial;
-               
+
         for (int i = 0; i <= str.length() - k; i++) {
             String current = str.substring(i, i + k);
-            
+
             if (current.compareTo(smallest) < 0) {
                 smallest = current;
             }
@@ -24,10 +24,10 @@ public class Solution {
                 largest = current;
             }
         }
-        
+
         return smallest + "\n" + largest;
     }
-    
+
 /* ************************************************************************** */
 /* --------------------------- begin locked code ---------------------------- */
 
@@ -36,7 +36,7 @@ public class Solution {
         String s = scan.next();
         int k = scan.nextInt();
         scan.close();
-      
+
         System.out.println(getSmallestAndLargest(s, k));
     }
 }

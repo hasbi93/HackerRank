@@ -1,8 +1,8 @@
 import java.util.Scanner;
 
 class Solution {
-    
-    static String capitalizeString(String str) {
+
+    private static String capitalizeString(String str) {
         return Character.toUpperCase(str.charAt(0)) + str.substring(1);
     }
 
@@ -16,5 +16,5 @@ class Solution {
         System.out.println(A.compareTo(B) > 0 ? "Yes" : "No");
         System.out.println(capitalizeString(A) + " " + capitalizeString(B));
     }
-    
+
 }

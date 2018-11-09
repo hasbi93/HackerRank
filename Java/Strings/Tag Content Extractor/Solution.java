@@ -8,31 +8,31 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 class Solution {
-    
+
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int testCases = in.nextInt();
         in.nextLine();
-        
+
         for (int t = 0; t < testCases; t++) {
             String input = in.nextLine();
-                      
+
             Pattern pattern = Pattern.compile("<(.+)>([^<]+)</\\1>");
             Matcher matcher = pattern.matcher(input);
 
             boolean foundMatch = false;
-            
+
             while (matcher.find()) {
                 System.out.println(matcher.group(2));
                 foundMatch = true;
             }
-            
+
             if (!foundMatch) {
                 System.out.println("None");
             }
         }
-        
+
         in.close();
     }
-    
+
 }
