@@ -76,3 +76,10 @@
 | [Prime Checker](https://www.hackerrank.com/challenges/prime-checker)                        |             [Java 8](https://github.com/clfm/HackerRank/blob/master/Java/Advanced/Prime%20Checker/Solution.java)            |   | [Lambda Expressions](https://www.hackerrank.com/challenges/java-lambda-expressions) | [Java 8](https://github.com/clfm/HackerRank/blob/master/Java/Advanced/Java%20Lambda%20Expressions/Solution.java) |
 | [Factory Pattern](https://www.hackerrank.com/challenges/java-factory)                       |        [Java 8](https://github.com/clfm/HackerRank/blob/master/Java/Advanced/Java%20Factory%20Pattern/Solution.java)        |   | [MD5](https://www.hackerrank.com/challenges/java-md5)                               |          [Java 8](https://github.com/clfm/HackerRank/blob/master/Java/Advanced/Java%20MD5/Solution.java)         |
 | [Singleton Pattern](https://www.hackerrank.com/challenges/java-singleton)                   |       [Java 8](https://github.com/clfm/HackerRank/blob/master/Java/Advanced/Java%20Singleton%20Pattern/Solution.java)       |   | [SHA-256](https://www.hackerrank.com/challenges/sha-256)                            |        [Java 8](https://github.com/clfm/HackerRank/blob/master/Java/Advanced/Java%20SHA-256/Solution.java)       |
+
+
+### Encouraging Good Practices
+
+The code stubs and solutions HackerRank provides for many of these challenges sometimes encourage bad coding habits. These include hardcoded values and some non-standard naming/indentation schemes. To help show beginners the light, my solutions adhere more strictly to general community standards of clean, maintainble code.
+
+Specifically, my Java solutions mostly follow [Google's Java Style Guide](https://google.github.io/styleguide/javaguide.html). (I say "mostly" because the locked code and tests written by HackerRank sometimes force the use of unconventional names, imports, etc.)
