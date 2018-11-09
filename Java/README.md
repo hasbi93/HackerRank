@@ -68,3 +68,11 @@
 
 ## Advanced
 
+| Challenge                                                                                   |  Solution  |   | Challenge                                                                           |  Solution  |
+|---------------------------------------------------------------------------------------------|:----------:|---|-------------------------------------------------------------------------------------|:----------:|
+| [Varargs - Simple Addition](https://www.hackerrank.com/challenges/simple-addition-varargs)  | [Java 8]() |   | [Visitor Pattern](https://www.hackerrank.com/challenges/java-vistor-pattern)        | [Java 8]() |
+| [Reflection - Attributes](https://www.hackerrank.com/challenges/java-reflection-attributes) | [Java 8]() |   | [Annotations](https://www.hackerrank.com/challenges/java-annotations)               | [Java 8]() |
+| [Can You Access](https://www.hackerrank.com/challenges/can-you-access)                      | [Java 8]() |   | [Covariant Return Types](https://www.hackerrank.com/challenges/java-covariance)     | [Java 8]() |
+| [Prime Checker](https://www.hackerrank.com/challenges/prime-checker)                        | [Java 8]() |   | [Lambda Expressions](https://www.hackerrank.com/challenges/java-lambda-expressions) | [Java 8]() |
+| [Factory Pattern](https://www.hackerrank.com/challenges/java-factory)                       | [Java 8]() |   | [MD5](https://www.hackerrank.com/challenges/java-md5)                               | [Java 8]() |
+| [Singleton Pattern](https://www.hackerrank.com/challenges/java-singleton)                   | [Java 8]() |   | [SHA-256](https://www.hackerrank.com/challenges/sha-256)                            | [Java 8]() |
