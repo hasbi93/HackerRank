@@ -7,17 +7,17 @@ import java.lang.reflect.Method;
 /* ************************************************************************** */
 
 class Printer {
-   
+
     static <E> void printArray(E[] array) {
         if (array == null || array.length == 0) {
             return;
         }
-        
+
         for (E element : array) {
             System.out.println(element);
         }
     }
-    
+
 }
 
 /* ************************************************************************** */
@@ -41,7 +41,7 @@ public class Solution {
         }
 
         if(count > 1)System.out.println("Method overloading is not allowed!");
-      
+
     }
 }
 /* ---------------------------- end locked code ----------------------------- */

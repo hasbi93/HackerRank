@@ -12,6 +12,7 @@
 | [Loops I](https://www.hackerrank.com/challenges/java-loops-i)                       |         [Java 8](https://github.com/clfm/HackerRank/blob/master/Java/Introduction/Java%20Loops%20I/Solution.java)         |   | [Currency Formatter](https://www.hackerrank.com/challenges/java-currency-formatter)             | [Java 8](https://github.com/clfm/HackerRank/blob/master/Java/Introduction/Java%20Currency%20Formatter/Solution.java)         |
 | [Loops II](https://www.hackerrank.com/challenges/java-loops)                        |         [Java 8](https://github.com/clfm/HackerRank/blob/master/Java/Introduction/Java%20Loops%20II/Solution.java)        |   |                                                                                                 |                                                                                                                              |
 
+
 ## Strings
 
 | Challenge                                                                               |                                                      Solution                                                      |   | Challenge                                                                                         |  Solution  |
@@ -23,4 +24,27 @@
 | [Anagrams](https://www.hackerrank.com/challenges/java-anagrams)                         | [Java 8](https://github.com/clfm/HackerRank/blob/master/Java/Strings/Java%20Anagrams/Solution.java)                |   | [Tag Content Extractor](https://www.hackerrank.com/challenges/tag-content-extractor)              | [Java 8](https://github.com/clfm/HackerRank/blob/master/Java/Strings/Tag%20Content%20Extractor/Solution.java) |
 | [String Tokens](https://www.hackerrank.com/challenges/java-string-tokens)               | [Java 8](https://github.com/clfm/HackerRank/blob/master/Java/Strings/Java%20String%20Tokens/Solution.java)         |   |                                                                                                   |            |                                                                                            |            |
 
-## Next Subdomain...
+
+## BigNumber
+
+| Challenge                                                                   |                                                    Solution                                                   |
+|-----------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------:|
+| [BigDecimal](https://www.hackerrank.com/challenges/java-bigdecimal)         | [Java 8](https://github.com/clfm/HackerRank/blob/master/Java/BigNumber/Java%20BigDecimal/Solution.java)       |
+| [Primality Test](https://www.hackerrank.com/challenges/java-primality-test) | [Java 8](https://github.com/clfm/HackerRank/blob/master/Java/BigNumber/Java%20Primality%20Test/Solution.java) |
+| [BigInteger](https://www.hackerrank.com/challenges/java-biginteger)         | [Java 8](https://github.com/clfm/HackerRank/blob/master/Java/BigNumber/Java%20BigInteger/Solution.java)       |
+
+
+## Data Structures
+
+| Challenge                                                                    |                                                           Solution                                                           |   | Challenge                                                                   |                                                        Solution                                                       |
+|------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------:|---|-----------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------:|
+| [1D Array](https://www.hackerrank.com/challenges/java-1d-array-introduction) |        [Java 8](https://github.com/clfm/HackerRank/blob/master/Java/Data%20Structures/Java%201D%20Array/Solution.java)       |   | [Hashset](https://www.hackerrank.com/challenges/java-hashset)               |      [Java 8](https://github.com/clfm/HackerRank/blob/master/Java/Data%20Structures/Java%20Hashset/Solution.java)     |
+| [2D Array](https://www.hackerrank.com/challenges/java-2d-array)              |        [Java 8](https://github.com/clfm/HackerRank/blob/master/Java/Data%20Structures/Java%202D%20Array/Solution.java)       |   | [Generics](https://www.hackerrank.com/challenges/java-generics)             |     [Java 8](https://github.com/clfm/HackerRank/blob/master/Java/Data%20Structures/Java%20Generics/Solution.java)     |
+| [Subarray](https://www.hackerrank.com/challenges/java-negative-subarray)     |         [Java 8](https://github.com/clfm/HackerRank/blob/master/Java/Data%20Structures/Java%20Subarray/Solution.java)        |   | [Comparator](https://www.hackerrank.com/challenges/java-comparator)         |    [Java 8](https://github.com/clfm/HackerRank/blob/master/Java/Data%20Structures/Java%20Comparator/Solution.java)    |
+| [Arraylist](https://www.hackerrank.com/challenges/java-arraylist)            |        [Java 8](https://github.com/clfm/HackerRank/blob/master/Java/Data%20Structures/Java%20Arraylist/Solution.java)        |   | [Sort](https://www.hackerrank.com/challenges/java-sort)                     |       [Java 8](https://github.com/clfm/HackerRank/blob/master/Java/Data%20Structures/Java%20Sort/Solution.java)       |
+| [1D Array (Part 2)](https://www.hackerrank.com/challenges/java-1d-array)     | [Java 8](https://github.com/clfm/HackerRank/blob/master/Java/Data%20Structures/Java%201D%20Array%20(Part%202)/Solution.java) |   | [Dequeue](https://www.hackerrank.com/challenges/java-dequeue)               |      [Java 8](https://github.com/clfm/HackerRank/blob/master/Java/Data%20Structures/Java%20Dequeue/Solution.java)     |
+| [List](https://www.hackerrank.com/challenges/java-list)                      |           [Java 8](https://github.com/clfm/HackerRank/blob/master/Java/Data%20Structures/Java%20List/Solution.java)          |   | [BitSet](https://www.hackerrank.com/challenges/java-bitset)                 |      [Java 8](https://github.com/clfm/HackerRank/blob/master/Java/Data%20Structures/Java%20BitSet/Solution.java)      |
+| [Map](https://www.hackerrank.com/challenges/phone-book)                      |           [Java 8](https://github.com/clfm/HackerRank/blob/master/Java/Data%20Structures/Java%20Map/Solution.java)           |   | [Priority Queue](https://www.hackerrank.com/challenges/java-priority-queue) | [Java 8](https://github.com/clfm/HackerRank/blob/master/Java/Data%20Structures/Java%20Priority%20Queue/Solution.java) |
+| [Stack](https://www.hackerrank.com/challenges/java-stack)                    |          [Java 8](https://github.com/clfm/HackerRank/blob/master/Java/Data%20Structures/Java%20Stack/Solution.java)          |   |                                                                             |                                                                                                                       |
+
+# Next Subdomain..

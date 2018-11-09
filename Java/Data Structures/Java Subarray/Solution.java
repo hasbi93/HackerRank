@@ -4,16 +4,16 @@ class Solution {
 
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        
+
         int length = in.nextInt();
         int[] array = new int[length];
-        
+
         for (int i = 0; i < length; i++) {
             array[i] = in.nextInt();
         }
-        
+
         in.close();
-        
+
         int negativeSubarrays = 0;
         /* Loop through all length 1 subarrays, then length 2, and so on,
          * checking if each one is negative */
@@ -28,8 +28,8 @@ class Solution {
                 }
             }
         }
-        
-        System.out.println(negativeSubarrays);                
+
+        System.out.println(negativeSubarrays);
     }
-    
+
 }

@@ -8,7 +8,7 @@ class Solution {
         BigInteger a = new BigInteger(in.next());
         BigInteger b = new BigInteger(in.next());
         in.close();
-        
+
         System.out.println(a.add(b));
         System.out.println(a.multiply(b));
     }

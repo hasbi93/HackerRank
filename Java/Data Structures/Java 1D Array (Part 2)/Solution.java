@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 class Solution {
-    
+
     /* Performs a recursive DFS to check if the given game array is solvable
      * starting from the specified index */
     private static boolean isSolvable(int leap, int[] game, int i) {
@@ -10,14 +10,14 @@ class Solution {
         } else if (i + 1 >= game.length || i + leap >= game.length) {
             return true;
         }
-        
+
         /* Don't go through this node again (avoids infinite recursion) */
         arrays[i] = 1;
-        
-        return isSolvable(leap, game, i + 1) 
+
+        return isSolvable(leap, game, i + 1)
             || isSolvable(leap, game, i - 1)
             || isSolvable(leap, game, i + leap);
-    } 
+    }
 
     private static boolean canWin(int leap, int[] game) {
         return isSolvable(leap, game, 0);
@@ -29,7 +29,7 @@ class Solution {
         for (int i = 0; i < q; i++) {
             int n = in.nextInt();
             int leap = in.nextInt();
-            
+
             int[] game = new int[n];
             for (int j = 0; j < n; j++) {
                 game[j] = in.nextInt();
