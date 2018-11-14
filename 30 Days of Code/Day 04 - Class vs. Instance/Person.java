@@ -8,9 +8,9 @@ import java.util.*;
 public class Person {
 
     /* Inclusive limits for the defined age ranges */
-    private static int YOUNG_MAX = 12;
-    private static int TEEN_MIN = 13;
-    private static int TEEN_MAX = 17; // interesting definition of "teen"...
+    private static final int YOUNG_MAX = 12;
+    private static final int TEEN_MIN = 13;
+    private static final int TEEN_MAX = 17; // interesting definition of "teen"
 
     private int age;
 

@@ -25,18 +25,15 @@ class Solution {
     }
 
     public static void main(String[] args) {
-        /* Read in the array and its size */
         Scanner in = new Scanner(System.in);
         int length = in.nextInt();
 
-        /* Read in the array */
         int[] array = new int[length];
         for (int i = 0; i < length; i++) {
             array[i] = in.nextInt();
         }
         in.close();
 
-        /* Reverse and print the array */
         reverse(array);
         for (int element : array) {
             System.out.print(element + " ");

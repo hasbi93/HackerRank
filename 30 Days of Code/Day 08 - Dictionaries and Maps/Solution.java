@@ -1,13 +1,13 @@
-import java.util.Scanner;
 import java.util.Map;
 import java.util.HashMap;
+import java.util.Scanner;
 
 class Solution {
 
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
 
-        // Maps names (keys) to phone numbers (values)
+        /* Maps names (keys) to phone numbers (values) */
         Map<String, Integer> phoneBook = new HashMap<>();
 
         int numEntries = in.nextInt();

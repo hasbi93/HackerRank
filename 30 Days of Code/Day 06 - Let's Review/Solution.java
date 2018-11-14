@@ -22,14 +22,14 @@ class Solution {
         for (int t = 0; t < testCases; t++) {
             String input = in.nextLine();
 
-            String evenChars = "";
-            String oddChars = "";
+            StringBuilder evenChars = new StringBuilder();
+            StringBuilder oddChars = new StringBuilder();
 
             for (int i = 0; i < input.length(); i++) {
                 if (i % 2 == 0) {
-                    evenChars += input.charAt(i);
+                    evenChars.append(input.charAt(i));
                 } else {
-                    oddChars += input.charAt(i);
+                    oddChars.append(input.charAt(i));
                 }
             }
 
