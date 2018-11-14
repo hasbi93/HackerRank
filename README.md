@@ -4,18 +4,11 @@
     </a>
 </p>
 
-<p align="center">
+<p align="center" style="width:50%">
   <b>What is HackerRank?</b><br>
-      HackerRank is a site that provides <i>programming challenges and exercises</i> <br> 
-      in a wide variety of languages, on a wide variety of subjects. These include <br>
-      data structures and algorithms, database management, and Linux shell commands, <br>
-      as well as math and AI-based challenges. The site also conducts occasional <br>
-      competitive programming contests. <br><br>
+    HackerRank is a site that provides <i>programming challenges and exercises</i> in a wide variety of languages, on a wide variety of subjects. These include data structures and algorithms, database management, and Linux shell commands, as well as math and AI-based challenges. The site also conducts occasional competitive programming contests. <br><br>
   <b>What's this repository for?</b><br>
-      A public record of my solutions to a bunch of these challenges, mostly <br>
-      in Java and Python. Many existing public solutions to these challenges are <br>
-      overly complex, overly brief, or both (!), leading aspiring programmers to some <br>
-      poor habits. Mine prioritize <i>readability, efficiency, and general best practices</i>. <br><br>
+      A public record of my solutions to a bunch of these challenges, mostly in Java and Python. Many existing public solutions to these challenges are overly complex, overly brief, or both (!), leading aspiring programmers to some poor habits. Mine prioritize <i>readability, efficiency, and general best practices</i>. <br><br>
   <b>What does this have to do with "hacking"?</b><br>
       Nothing!<br>
   <br><br>
