@@ -14,8 +14,9 @@
   <br><br>
 </p>
 
-| Domain                                                                                            | Solved/Total |
-|---------------------------------------------------------------------------------------------------|:------------:|
-| [30 Days of Code](https://github.com/clfm/HackerRank/blob/master/30%20Days%20of%20Code/README.md) |     30/30    |
-| [Java](https://github.com/clfm/HackerRank/blob/master/Java/README.md)                             |     64/64    |
-| [Python](https://github.com/clfm/HackerRank/blob/master/Python/README.md)                         |    54/115    |
+| Domain                                                                                                        | Solved/Total |
+|---------------------------------------------------------------------------------------------------------------|:------------:|
+| [10 Days of JavaScript](https://github.com/clfm/HackerRank/blob/master/10%20Days%20of%20JavaScript/README.md) |     25/25    |
+| [30 Days of Code](https://github.com/clfm/HackerRank/blob/master/30%20Days%20of%20Code/README.md)             |     30/30    |
+| [Java](https://github.com/clfm/HackerRank/blob/master/Java/README.md)                                         |     64/64    |
+| [Python](https://github.com/clfm/HackerRank/blob/master/Python/README.md)                                     |    54/115    |
