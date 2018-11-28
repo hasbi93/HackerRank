@@ -75,3 +75,54 @@
 | [Compress the String!](https://www.hackerrank.com/challenges/compress-the-string/problem)                                          |          [Python 3](https://github.com/clfm/HackerRank/blob/master/Python/Itertools/Compress%20the%20String!/solution.py)         |
 | [Iterables and Iterators](https://www.hackerrank.com/challenges/iterables-and-iterators/problem)                                   |        [Python 3](https://github.com/clfm/HackerRank/blob/master/Python/Itertools/Iterables%20and%20Iterators/solution.py)        |
 | [Maximize It!](https://www.hackerrank.com/challenges/maximize-it/problem)                                                          |               [Python 3](https://github.com/clfm/HackerRank/blob/master/Python/Itertools/Maximize%20It!/solution.py)              |
+
+
+## Collections
+
+| Challenge                                                                                             |                                                       Solution                                                      |
+|-------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------:|
+| [collections.Counter()](https://www.hackerrank.com/challenges/collections-counter/problem)            |   [Python 3](https://github.com/clfm/HackerRank/blob/master/Python/Collections/collections.Counter()/solution.py)   |
+| [DefaultDict Tutorial](https://www.hackerrank.com/challenges/defaultdict-tutorial/problem)            |   [Python 3](https://github.com/clfm/HackerRank/blob/master/Python/Collections/DefaultDict%20Tutorial/solution.py)  |
+| [Collections.namedtuple()](https://www.hackerrank.com/challenges/py-collections-namedtuple/problem)   |  [Python 3](https://github.com/clfm/HackerRank/blob/master/Python/Collections/Collections.namedtuple()/solution.py) |
+| [Collections.OrderedDict()](https://www.hackerrank.com/challenges/py-collections-ordereddict/problem) | [Python 3](https://github.com/clfm/HackerRank/blob/master/Python/Collections/Collections.OrderedDict()/solution.py) |
+| [Word Order](https://www.hackerrank.com/challenges/word-order/problem)                                |        [Python 3](https://github.com/clfm/HackerRank/blob/master/Python/Collections/Word%20Order/solution.py)       |
+| [Collections.deque()](https://www.hackerrank.com/challenges/py-collections-deque/problem)             |    [Python 3](https://github.com/clfm/HackerRank/blob/master/Python/Collections/Collections.deque()/solution.py)    |
+| [Company Logo](https://www.hackerrank.com/challenges/most-commons/problem)                            |       [Python 3](https://github.com/clfm/HackerRank/blob/master/Python/Collections/Company%20Logo/solution.py)      |
+| [Piling Up!](https://www.hackerrank.com/challenges/piling-up/problem)                                 |        [Python 3](https://github.com/clfm/HackerRank/blob/master/Python/Collections/Piling%20Up!/solution.py)       |
+
+
+## Date and Time
+
+| Challenge                                                                        |                                                      Solution                                                     |
+|----------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------:|
+| [Calendar Module](https://www.hackerrank.com/challenges/calendar-module/problem) | [Python 3](https://github.com/clfm/HackerRank/blob/master/Python/Date%20and%20Time/Calendar%20Module/solution.py) |
+| [Time Delta](https://www.hackerrank.com/challenges/python-time-delta/problem)    |    [Python 3](https://github.com/clfm/HackerRank/blob/master/Python/Date%20and%20Time/Time%20Delta/solution.py)   |
+
+
+## Exceptions
+
+| Challenge                                                                        |                                                          Solution                                                         |
+|----------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------:|
+| [Exceptions](https://www.hackerrank.com/challenges/exceptions/problem)           |     [Python 3](https://github.com/clfm/HackerRank/blob/master/Python/Errors%20and%20Exceptions/Exceptions/solution.py)    |
+| [Incorrect Regex](https://www.hackerrank.com/challenges/incorrect-regex/problem) | [Python 3](https://github.com/clfm/HackerRank/blob/master/Python/Errors%20and%20Exceptions/Incorrect%20Regex/solution.py) |
+
+
+## Classes
+
+| Challenge                                                                                                                   |                                                                Solution                                                                |
+|-----------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------:|
+| [Classes: Dealing with Complex Numbers](https://www.hackerrank.com/challenges/class-1-dealing-with-complex-numbers/problem) | [Python 3](https://github.com/clfm/HackerRank/blob/master/Python/Classes/Classes%20-%20Dealing%20with%20Complex%20Numbers/solution.py) |
+| [Class 2 - Find the Torsional Angle](https://www.hackerrank.com/challenges/class-2-find-the-torsional-angle/problem)        |  [Python 3](https://github.com/clfm/HackerRank/blob/master/Python/Classes/Class%202%20-%20Find%20the%20Torsional%20Angle/solution.py)  |
+
+
+## Built-Ins
+
+| Challenge | Solution |
+|-|:-:|
+| [Zipped!](https://www.hackerrank.com/challenges/zipped/problem) | [Python 3](https://github.com/clfm/HackerRank/blob/master/Python/Built-Ins/Zipped!/solution.py) |
+| [Input()](https://www.hackerrank.com/challenges/input/problem) | [Python 3](https://github.com/clfm/HackerRank/blob/master/Python/Built-Ins/Input()/solution.py) |
+| [Python Evaluation](https://www.hackerrank.com/challenges/python-eval/problem) | [Python 3](https://github.com/clfm/HackerRank/blob/master/Python/Built-Ins/Python%20Evaluation/solution.py) |
+| [Athlete Sort](https://www.hackerrank.com/challenges/python-sort-sort/problem) | [Python 3](https://github.com/clfm/HackerRank/blob/master/Python/Built-Ins/Athlete%20Sort/solution.py) |
+| [Any or All](https://www.hackerrank.com/challenges/any-or-all/problem) | [Python 3](https://github.com/clfm/HackerRank/blob/master/Python/Built-Ins/Any%20or%20All/solution.py) |
+| [ginortS](https://www.hackerrank.com/challenges/ginorts/problem) | [Python 3](https://github.com/clfm/HackerRank/blob/master/Python/Built-Ins/ginortS/solution.py) |
+
