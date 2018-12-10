@@ -99,7 +99,7 @@
 | [Time Delta](https://www.hackerrank.com/challenges/python-time-delta/problem)    |    [Python 3](https://github.com/clfm/HackerRank/blob/master/Python/Date%20and%20Time/Time%20Delta/solution.py)   |
 
 
-## Exceptions
+## Errors and Exceptions
 
 | Challenge                                                                        |                                                          Solution                                                         |
 |----------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------:|
@@ -126,3 +126,40 @@
 | [Any or All](https://www.hackerrank.com/challenges/any-or-all/problem) | [Python 3](https://github.com/clfm/HackerRank/blob/master/Python/Built-Ins/Any%20or%20All/solution.py) |
 | [ginortS](https://www.hackerrank.com/challenges/ginorts/problem) | [Python 3](https://github.com/clfm/HackerRank/blob/master/Python/Built-Ins/ginortS/solution.py) |
 
+
+## Python Functionals
+
+| Challenge                                                                                                                            |                                                                        Solution                                                                       |
+|--------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------:|
+| [Map and Lambda Function](https://www.hackerrank.com/challenges/map-and-lambda-expression/problem)                                   |            [Python 3](https://github.com/clfm/HackerRank/blob/master/Python/Python%20Functionals/Map%20and%20Lambda%20Function/solution.py)           |
+| [Validating Email Addresses With a Filter](https://www.hackerrank.com/challenges/validate-list-of-email-address-with-filter/problem) | [Python 3](https://github.com/clfm/HackerRank/blob/master/Python/Python%20Functionals/Validating%20Email%20Addresses%20With%20a%20Filter/solution.py) |
+| [Reduce Function](https://www.hackerrank.com/challenges/reduce-function/problem)                                                     |                  [Python 3](https://github.com/clfm/HackerRank/blob/master/Python/Python%20Functionals/Reduce%20Function/solution.py)                 |
+
+## Regex and Parsing
+
+_Work in progress..._
+
+
+## XML
+
+| Challenge                         |                                                          Solution                                                         |
+|-----------------------------------|:-------------------------------------------------------------------------------------------------------------------------:|
+| [XML 1 - Find the Score]()        |     [Python 3](https://github.com/clfm/HackerRank/blob/master/Python/XML/XML%201%20-%20Find%20the%20Score/solution.py)    |
+| [XML2 - Find the Maximum Depth]() | [Python 3](https://github.com/clfm/HackerRank/blob/master/Python/XML/XML2%20-%20Find%20the%20Maximum%20Depth/solution.py) |
+
+## Closures and Decorators
+
+_Work in progress..._
+
+
+## Numpy
+
+_Work in progress..._
+
+
+## Debugging
+
+| Challenge                                                                            |                                                   Solution                                                  |
+|--------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------:|
+| [Words Score](https://www.hackerrank.com/challenges/words-score/problem)             |    [Python 3](https://github.com/clfm/HackerRank/blob/master/Python/Debugging/Words%20Score/solution.py)    |
+| [Default Arguments](https://www.hackerrank.com/challenges/default-arguments/problem) | [Python 3](https://github.com/clfm/HackerRank/blob/master/Python/Debugging/Default%20Arguments/solution.py) |
