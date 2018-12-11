@@ -117,14 +117,14 @@
 
 ## Built-Ins
 
-| Challenge | Solution |
-|-|:-:|
-| [Zipped!](https://www.hackerrank.com/challenges/zipped/problem) | [Python 3](https://github.com/clfm/HackerRank/blob/master/Python/Built-Ins/Zipped!/solution.py) |
-| [Input()](https://www.hackerrank.com/challenges/input/problem) | [Python 3](https://github.com/clfm/HackerRank/blob/master/Python/Built-Ins/Input()/solution.py) |
+| Challenge                                                                      |                                                   Solution                                                  |
+|--------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------:|
+| [Zipped!](https://www.hackerrank.com/challenges/zipped/problem)                |       [Python 3](https://github.com/clfm/HackerRank/blob/master/Python/Built-Ins/Zipped!/solution.py)       |
+| [Input()](https://www.hackerrank.com/challenges/input/problem)                 |       [Python 3](https://github.com/clfm/HackerRank/blob/master/Python/Built-Ins/Input()/solution.py)       |
 | [Python Evaluation](https://www.hackerrank.com/challenges/python-eval/problem) | [Python 3](https://github.com/clfm/HackerRank/blob/master/Python/Built-Ins/Python%20Evaluation/solution.py) |
-| [Athlete Sort](https://www.hackerrank.com/challenges/python-sort-sort/problem) | [Python 3](https://github.com/clfm/HackerRank/blob/master/Python/Built-Ins/Athlete%20Sort/solution.py) |
-| [Any or All](https://www.hackerrank.com/challenges/any-or-all/problem) | [Python 3](https://github.com/clfm/HackerRank/blob/master/Python/Built-Ins/Any%20or%20All/solution.py) |
-| [ginortS](https://www.hackerrank.com/challenges/ginorts/problem) | [Python 3](https://github.com/clfm/HackerRank/blob/master/Python/Built-Ins/ginortS/solution.py) |
+| [Athlete Sort](https://www.hackerrank.com/challenges/python-sort-sort/problem) |    [Python 3](https://github.com/clfm/HackerRank/blob/master/Python/Built-Ins/Athlete%20Sort/solution.py)   |
+| [Any or All](https://www.hackerrank.com/challenges/any-or-all/problem)         |    [Python 3](https://github.com/clfm/HackerRank/blob/master/Python/Built-Ins/Any%20or%20All/solution.py)   |
+| [ginortS](https://www.hackerrank.com/challenges/ginorts/problem)               |       [Python 3](https://github.com/clfm/HackerRank/blob/master/Python/Built-Ins/ginortS/solution.py)       |
 
 
 ## Python Functionals
@@ -135,9 +135,20 @@
 | [Validating Email Addresses With a Filter](https://www.hackerrank.com/challenges/validate-list-of-email-address-with-filter/problem) | [Python 3](https://github.com/clfm/HackerRank/blob/master/Python/Python%20Functionals/Validating%20Email%20Addresses%20With%20a%20Filter/solution.py) |
 | [Reduce Function](https://www.hackerrank.com/challenges/reduce-function/problem)                                                     |                  [Python 3](https://github.com/clfm/HackerRank/blob/master/Python/Python%20Functionals/Reduce%20Function/solution.py)                 |
 
+
 ## Regex and Parsing
 
-_Work in progress..._
+| Challenge                                                                                                                |                                                                      Solution                                                                      |   | Challenge                                                                                                                                           | Solution                                                                                                               |
+|--------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------:|---|-----------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|
+| [Detect Floating Point Number](https://www.hackerrank.com/challenges/introduction-to-regex/problem)                      | [Python 3](https://github.com/clfm/HackerRank/blob/master/Python/Regex%20and%20Parsing/Detect%20Floating%20Point%20Number/solution.py)             |   | [Hex Color Code](https://www.hackerrank.com/challenges/hex-color-code/problem)                                                                      | [Python 3](https://github.com/clfm/HackerRank/blob/master/Python/Regex%20and%20Parsing/Hex%20Color%20Code/solution.py) |
+| [Re.split()](https://www.hackerrank.com/challenges/re-split/problem)                                                     | [Python 3](https://github.com/clfm/HackerRank/blob/master/Python/Regex%20and%20Parsing/Re.split()/solution.py)                                     |   | [HTML Parser - Part 1](https://www.hackerrank.com/challenges/html-parser-part-1/problem)                                                            | Unsolved                                                                                                               |
+| [Group(), Groups() & Groupdict()](https://www.hackerrank.com/challenges/re-group-groups/problem)                         | [Python 3](https://github.com/clfm/HackerRank/blob/master/Python/Regex%20and%20Parsing/Group()%2C%20Groups()%20%26%20Groupdict()/solution.py)      |   | [HTML Parser - Part 2](https://www.hackerrank.com/challenges/html-parser-part-2/problem)                                                            | Unsolved                                                                                                               |
+| [Re.findall() & Re.finditer()](https://www.hackerrank.com/challenges/re-findall-re-finditer/problem)                     | [Python 3](https://github.com/clfm/HackerRank/blob/master/Python/Regex%20and%20Parsing/Re.findall()%20%26%20Re.finditer()/solution.py)             |   | [Detect HTML Tags, Attributes and Attribute Values](https://www.hackerrank.com/challenges/detect-html-tags-attributes-and-attribute-values/problem) | Unsolved                                                                                                               |
+| [Re.start() & Re.end()](https://www.hackerrank.com/challenges/re-start-re-end/problem)                                   | [Python 3](https://github.com/clfm/HackerRank/blob/master/Python/Regex%20and%20Parsing/Re.start()%20%26%20Re.end()/solution.py)                    |   | [Validating UID](https://www.hackerrank.com/challenges/validating-uid/problem)                                                                      | Unsolved                                                                                                               |
+| [Regex Substitution](https://www.hackerrank.com/challenges/re-sub-regex-substitution/problem)                            | [Python 3](https://github.com/clfm/HackerRank/blob/master/Python/Regex%20and%20Parsing/Regex%20Substitution/solution.py)                           |   | [Validating Credit Card Numbers](https://www.hackerrank.com/challenges/validating-credit-card-number/problem)                                       | Unsolved                                                                                                               |
+| [Validating Roman Numerals](https://www.hackerrank.com/challenges/validate-a-roman-number/problem)                       | [Python 3](https://github.com/clfm/HackerRank/blob/master/Python/Regex%20and%20Parsing/Validating%20Roman%20Numerals/solution.py)                  |   | [Validating Postal Codes](https://www.hackerrank.com/challenges/validating-postalcode/problem)                                                      | Unsolved                                                                                                               |
+| [Validating phone numbers](https://www.hackerrank.com/challenges/validating-the-phone-number/problem)                    | [Python 3](https://github.com/clfm/HackerRank/blob/master/Python/Regex%20and%20Parsing/Validating%20phone%20numbers/solution.py)                   |   | [Matrix Script](https://www.hackerrank.com/challenges/matrix-script/problem)                                                                        | Unsolved                                                                                                               |
+| [Validating and Parsing Email Addresses](https://www.hackerrank.com/challenges/validating-named-email-addresses/problem) | [Python 3](https://github.com/clfm/HackerRank/blob/master/Python/Regex%20and%20Parsing/Validating%20and%20Parsing%20Email%20Addresses/solution.py) |   |                                                                                                                                                     |                                                                                                                        |
 
 
 ## XML
@@ -147,14 +158,27 @@ _Work in progress..._
 | [XML 1 - Find the Score]()        |     [Python 3](https://github.com/clfm/HackerRank/blob/master/Python/XML/XML%201%20-%20Find%20the%20Score/solution.py)    |
 | [XML2 - Find the Maximum Depth]() | [Python 3](https://github.com/clfm/HackerRank/blob/master/Python/XML/XML2%20-%20Find%20the%20Maximum%20Depth/solution.py) |
 
+
 ## Closures and Decorators
 
-_Work in progress..._
+| Challenge                         |                                                          Solution                                                         |
+|-----------------------------------|:-------------------------------------------------------------------------------------------------------------------------:|
+| [Standardize Mobile Number Using Decorators](https://www.hackerrank.com/challenges/standardize-mobile-number-using-decorators/problem) | Unsolved |
+| [Decorators 2 - Name Directory](https://www.hackerrank.com/challenges/decorators-2-name-directory/problem) | Unsolved |
 
 
 ## Numpy
 
-_Work in progress..._
+| Challenge                                                                                       | Solution |   | Challenge                                                                               | Solution |
+|-------------------------------------------------------------------------------------------------|:--------:|---|-----------------------------------------------------------------------------------------|----------|
+| [Arrays](https://www.hackerrank.com/challenges/np-arrays/problem)                               | Unsolved |   | [Sum and Prod](https://www.hackerrank.com/challenges/np-sum-and-prod/problem)           | Unsolved |
+| [Shape and Reshape](https://www.hackerrank.com/challenges/np-shape-reshape/problem)             | Unsolved |   | [Min and Max](https://www.hackerrank.com/challenges/np-min-and-max/problem)             | Unsolved |
+| [Transpose and Flatten](https://www.hackerrank.com/challenges/np-transpose-and-flatten/problem) | Unsolved |   | [Mean, Var, and Std](https://www.hackerrank.com/challenges/np-mean-var-and-std/problem) | Unsolved |
+| [Concatenate](https://www.hackerrank.com/challenges/np-concatenate/problem)                     | Unsolved |   | [Dot and Cross](https://www.hackerrank.com/challenges/np-dot-and-cross/problem)         | Unsolved |
+| [Zeros and Ones](https://www.hackerrank.com/challenges/np-zeros-and-ones/problem)               | Unsolved |   | [Inner and Outer](https://www.hackerrank.com/challenges/np-inner-and-outer/problem)     | Unsolved |
+| [Eye and Identity](https://www.hackerrank.com/challenges/np-eye-and-identity/problem)           | Unsolved |   | [Polynomials](https://www.hackerrank.com/challenges/np-polynomials/problem)             | Unsolved |
+| [Array Mathematics](https://www.hackerrank.com/challenges/np-array-mathematics/problem)         | Unsolved |   | [Linear Algebra](https://www.hackerrank.com/challenges/np-linear-algebra/problem)       | Unsolved |
+| [Floor, Ceil and Rint](https://www.hackerrank.com/challenges/floor-ceil-and-rint/problem)       | Unsolved |   |                                                                                         |          |
 
 
 ## Debugging
