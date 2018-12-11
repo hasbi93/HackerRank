@@ -12,7 +12,7 @@ class Solution {
         }
 
         /* Don't go through this node again (avoids infinite recursion) */
-        arrays[i] = 1;
+        game[i] = 1;
 
         return isSolvable(leap, game, i + 1)
             || isSolvable(leap, game, i - 1)
