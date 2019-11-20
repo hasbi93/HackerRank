@@ -1,6 +1,6 @@
 <p align="center">
     <a href="https://www.hackerrank.com/_clfm_">
-        <img height=200 src="https://github.com/clfm/HackerRank/blob/master/images/hackerrank-logo.jpg">
+        <img height=200 src="images/hackerrank-logo.jpg">
     </a>
 </p>
 
@@ -16,9 +16,9 @@
 
 | Domain                                                                                                        |    Language(s)   | Solved/Total |
 |---------------------------------------------------------------------------------------------------------------|:----------------:|:------------:|
-| [10 Days of JavaScript](https://github.com/clfm/HackerRank/blob/master/10%20Days%20of%20JavaScript/README.md) |      Node.js     |     25/25    |
-| [30 Days of Code](https://github.com/clfm/HackerRank/blob/master/30%20Days%20of%20Code/README.md)             | Java 8, Python 3 |     30/30    |
-| [C](https://github.com/clfm/HackerRank/blob/master/C/README.md)                                               |        C         |     18/25    |
-| [Java](https://github.com/clfm/HackerRank/blob/master/Java/README.md)                                         |      Java 8      |     64/64    |
-| [Python](https://github.com/clfm/HackerRank/blob/master/Python/README.md)                                     |     Python 3     |    91/115    |
-| [SQL](https://github.com/clfm/HackerRank/blob/master/SQL/README.md)                                           |       MySQL      |     45/58    |
+| [10 Days of JavaScript](10%20Days%20of%20JavaScript/README.md) |      Node.js     |     25/25    |
+| [30 Days of Code](30%20Days%20of%20Code/README.md)             | Java 8, Python 3 |     30/30    |
+| [C](C/README.md)                                               |        C         |     18/25    |
+| [Java](Java/README.md)                                         |      Java 8      |     64/64    |
+| [Python](Python/README.md)                                     |     Python 3     |    91/115    |
+| [SQL](SQL/README.md)                                           |       MySQL      |     45/58    |
