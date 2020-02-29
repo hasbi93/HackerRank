@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://raw.githubusercontent.com/clfm/Programming-Exercises/master/CodingBat/images/banner.png">
+  <a href="images/banner.png">
     <img width="50%" src="images/banner.png">
   </a>
 </p>
@@ -41,14 +41,14 @@ Stars and checkmarks are CodingBat's way of displaying your progress through the
 
 ### Completed - Java
 <p>
-  <a href="https://raw.githubusercontent.com/clfm/Programming-Exercises/master/CodingBat/images/java.png">
+  <a href="images/java.png">
     <img width="70%" src="images/java.png">
   </a>
 </p>
 
 ### Completed - Python
 <p>
-  <a href="https://raw.githubusercontent.com/clfm/Programming-Exercises/master/CodingBat/images/python.png">
+  <a href="images/python.png">
     <img width="70%" src="images/python.png">
   </a>
 </p>
